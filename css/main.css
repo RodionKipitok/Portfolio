@@ -265,3 +265,33 @@ body {
 .copyright {
   font-size: 16px;
 }
+
+/* Page Skills */
+
+.headline {
+  margin-bottom: 60px;
+  font-size: 60px;
+  font-weight: 700;
+  list-style: 1.3;
+  color: var(--accent);
+  text-align: center;
+}
+.content-list {
+  margin: 0 auto;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 40px;
+}
+.content-list__item {
+  font-size: 18px;
+  list-style: 1.5;
+}
+.title-skills {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 700;
+}
