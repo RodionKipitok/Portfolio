@@ -93,9 +93,11 @@ body {
   height: 24px;
   border-radius: 50%;
   background-color: var(--white);
+  transition: left o.2s ease-in;
 }
 .dark-mode-btn__icon {
   position: relative;
+  z-index: 9;
 }
 
 .dark-mode-btn-active::before {
