@@ -265,9 +265,16 @@ body {
   max-width: 370px;
   color: var(--project-card-text);
   background-color: var(--project-bg-title-card);
-
+  transition: transform 0.3s ease-in;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+.project:focus {
+  transform: rotate(180deg);
 }
 
 .project__img {
